@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Новини</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Новини</h1>
+  <select id="filter-select">
+    <option value="all">Усі</option>
+    <option value="positive">Позитивні</option>
+    <option value="neutral">Нейтральні</option>
+    <option value="negative">Негативні</option>
+  </select>
+  <div class="chart-container">
+    <canvas id="sentiment-chart"></canvas>
+  </div>
+  <table id="articles-table">
+    <thead><tr><th>Дата</th><th>Тональність</th><th>Заголовок</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <script>
+    STUDENT_ID = "KOZUNENKO_8fc3fdec"
+    const API_BASE = "http://localhost:8000";
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

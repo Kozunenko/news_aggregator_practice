@@ -1,0 +1,4 @@
+body { font-family: Arial; margin: 20px; }
+.chart-container { max-width: 600px; margin: 20px auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 8px; }

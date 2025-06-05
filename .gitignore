@@ -2,8 +2,9 @@ __pycache__/
 *.pyc
 .venv/
 .env
-config.py
+# config.py
 *.db
 *.sqlite
 frontend/node_modules/
+# backend/
 
